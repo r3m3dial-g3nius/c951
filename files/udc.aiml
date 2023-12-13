@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    
+<!-- Steven Bennett ID# 003761827 C951 -->
+    
+<!-- Chat Start -->
+  <category>
+        <pattern>*</pattern>
+        <template>Hello! I am a careerbot designed to provide BSCS students and graduates with careerpath guidance based. Would you like to begin?
+            <button>
+                <text>Yes</text>
+                <postback>Start</postback>
+            </button>
+        
+            <button>
+                <text>No</text>
+                <postback>exit</postback>
+            </button>
+        </template>
+  </category>
+  
+  
+  <!-- Chat Exit -->
+  <category>
+      <pattern>EXIT</pattern>
+      <template>Thank you for chatting. Come back anytime for career recommendations.</template>
+  </category>
+  
+  
+  <!-- Start Survey -->
+  <category>
+        <pattern>START</pattern>
+        <template>Great! Let's get started...as a BSCS graduate, there are many career paths you can explore. Do you enjoy coding?
+            <button>
+                <text>Yes</text>
+                <postback>Programming</postback>
+            </button>
+      
+            <button>
+                <text>No</text>
+                <postback>nocoding</postback>
+            </button>
+        </template>
+  </category>
+  
+  
+  <!-- data/ITPM -->
+  <category>
+        <pattern>NOCODING</pattern>
+        <template>If coding isn't your cup of tea, do you like working with a granular level of detail? Or perhaps you prefer to operate on a much broader scope?
+            <button>
+                <text>Its all about the details</text>
+                <postback>Data</postback>
+            </button>
+      
+            <button>
+                <text>I can see the big picture</text>
+                <postback>Project Manager</postback>
+            </button>
+        </template>
+  </category>
+  
+  
+  
+  
+  
+  <!-- IT Project Mgr -->
+  <category>
+        <pattern>PROJECT MANAGER</pattern>
+        <template>If you excel at seeing the big picture and your skillset includes strong communication, organizing and orchestrating multiple moving parts, and seeing a project from start to finish, then a role in IT Project Management might fit you best!
+            <button>
+                <text>Retry survey</text>
+                <postback>Start</postback>
+            </button>
+      
+            <button>
+                <text>End chat</text>
+                <postback>Exit</postback>
+            </button>
+        </template>
+  </category>
+  
+  
+  
+  <!-- programming -->
+  <category>
+        <pattern>PROGRAMMING</pattern>
+        <template>Are you creative and more interested in user interface design? Or are you a logical thinker and prefer working with data or data structures?
+            <button>
+                <text>Logical</text>
+                <postback>Logical</postback>
+            </button>
+      
+            <button>
+                <text>Design</text>
+                <postback>Design</postback>
+            </button>
+        </template>
+    </category>
+  
+ 
+  <!-- logical -->
+  <category>
+        <pattern>LOGICAL</pattern>
+        <template>A career as a Backend Developer could be a great fit! A Backend Developer is responsible for server-side logic, backend architecture, and integration of front end designs.
+            <button>
+                <text>Retry survey</text>
+                <postback>Start</postback>
+            </button>
+      
+            <button>
+                <text>End chat</text>
+                <postback>Exit</postback>
+            </button>
+        </template>
+  </category>
+ 
+  
+  <!-- ux/ui -->
+  <category>
+        <pattern>DESIGN</pattern>
+        <template>A career as a Frontend Developer may be for you! A Frontend Developer, or UX/UI Developer, is a role that focuses on creating the user interface of applications or websites maximizing usability in visually appealing and intuitive manner.
+      
+            <button>
+                <text>Retry survey</text>
+                <postback>Start</postback>
+            </button>
+      
+            <button>
+                <text>End chat</text>
+                <postback>Exit</postback>
+            </button>
+        </template>
+  </category>
+  
+  <!-- data -->
+  <category>
+        <pattern>DATA</pattern>
+        <template>There are a lot of opportunities working with data. Are you interested in analyzing and organizing data and presenting detailed findings? Or maybe managing data to ensure integrity and security?
+            <button>
+                <text>Analyzing Data</text>
+                <postback>Analytics</postback>
+            </button>
+      
+            <button>
+                <text>Managing Data</text>
+                <postback>DBM</postback>
+            </button>
+        </template>
+  </category>
+  
+  
+<!-- analytics -->
+<category>
+        <pattern>ANALYTICS</pattern>
+        <template>A data analyst gathers, cleans, and studies data sets to help solve problems and presents findings in a meaningful format. These findings are often used to help make business decisions.
+            <button>
+                <text>Retry survey</text>
+                <postback>Start</postback>
+            </button>
+      
+            <button>
+                <text>End chat</text>
+                <postback>Exit</postback>
+            </button>
+        </template>
+</category>
+
+
+<!-- DBM -->
+<category>
+        <pattern>DBM</pattern>
+        <template>If you are someone that prefers to manage data, then a role as a Database Manager or Database Administrator could be your calling. The candidate filling that role manages, develops and maintains a company's data storage methods, databases and database retrieval systems.
+            <button>
+                <text>Retry survey</text>
+                <postback>Start</postback>
+            </button>
+      
+            <button>
+                <text>End chat</text>
+                <postback>Exit</postback>
+            </button>
+        </template>
+</category>
+  
+  
+
+</aiml>
