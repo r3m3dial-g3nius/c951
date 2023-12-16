@@ -29,8 +29,8 @@
 <!-- HELP -->
   <category>
         <pattern>HELP</pattern>
-        <template>This is a chatbot designed to assist BSCS students and graduates with choosing a career path that fits their interests based on the answers provided by the user. 
-        To navigate and complete the survey, simply lick on the desired resopnse to each questions. Are you ready to begin?
+        <template>This is a chatbot designed to assist BSCS students and graduates with choosing a career path that fits their interests based on the user responses. 
+        To navigate and complete the survey, simply click the desired response to each question. Are you ready to begin?
             <button>
                 <text>Yes</text>
                 <postback>Start</postback>
@@ -56,7 +56,7 @@
 <!-- Start Survey -->
   <category>
         <pattern>START</pattern>
-        <template>Great! Let's get started...as a BSCS graduate, there are many career paths you can explore. Are you a coding machine? Are you an artist with algorythms? Is programming your calling?
+        <template>Great! Let's get started...as a BSCS graduate, there are many career paths you can explore. Do you like programming?  Are you a coding machine? Are you an artist with algorythms? Is programming your calling?
             <button>
                 <text>Yes</text>
                 <postback>Programming</postback>
@@ -93,7 +93,7 @@
   <!-- IT Project Mgr -->
   <category>
         <pattern>PROJECT MANAGER</pattern>
-        <template>If you excel at seeing the big picture and your skillset includes strong communication, organization, and orchestrating multiple moving parts, and you like seeing a project from start to finish, then a role in IT Project Management might fit you best!
+        <template>If you excel at seeing the big picture and your skillset includes strong communication, documentation, organization, and orchestrating multiple moving parts, and you like seeing a project from start to finish, then a role in IT Project Management might fit you best!
             <button>
                 <text>Retry survey</text>
                 <postback>Start</postback>
@@ -111,7 +111,7 @@
   <!-- programming -->
   <category>
         <pattern>PROGRAMMING</pattern>
-        <template>Are you creative and more interested in desiging the user experience with a sleek and intuitive interface? Or are you a logical thinker and prefer working with data or data structures?
+        <template>Are you the creative type and more interested in designing the user experience with a sleek and intuitive interface? Or perhaps are you a logical thinker and prefer working with data and/or data structures?
             <button>
                 <text>Logical</text>
                 <postback>Logical</postback>
@@ -128,7 +128,7 @@
   <!-- logical -->
   <category>
         <pattern>LOGICAL</pattern>
-        <template>A career as a Backend Developer could be a great fit! A Backend Developer is responsible for server-side logic, backend architecture, and integration of front end designs.
+        <template>A career as a Backend Developer could be a great fit! A Backend Developer is responsible for server-side logic, backend architecture, and integration of front end designs.  Essentially, Backend Developers are responsible for creating all the things you don't see as you are using a program.
             <button>
                 <text>Retry survey</text>
                 <postback>Start</postback>
@@ -145,8 +145,7 @@
   <!-- ux/ui -->
   <category>
         <pattern>DESIGN</pattern>
-        <template>A career as a Frontend Developer may be for you! A Frontend Developer, or UX/UI Developer, is a role that focuses on creating the user interface of applications or websites maximizing usability in visually appealing and intuitive manner.
-      
+        <template>A career as a Frontend Developer may be for you! A Frontend Developer, or UX/UI Developer, is a role that focuses on creating the user interface of applications or websites maximizing usability in visually appealing and intuitive manner.  UX/UI is a great careerpath full of opportunities.
             <button>
                 <text>Retry survey</text>
                 <postback>Start</postback>
@@ -162,7 +161,7 @@
   <!-- data -->
   <category>
         <pattern>DATA</pattern>
-        <template>There are a lot of opportunities working with data. Are you interested in analyzing and organizing data and presenting detailed findings? Or maybe managing data to ensure integrity and security?
+        <template>There are a lot of opportunities working with data. Are you interested in analyzing and organizing data and presenting detailed findings? Or maybe managing that company data and data storage methods to ensure integrity and security?
             <button>
                 <text>Analyzing Data</text>
                 <postback>Analytics</postback>
