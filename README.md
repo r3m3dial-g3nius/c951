@@ -1,4 +1,5 @@
 INTRODUCTION
+
 This course has introduced you to a variety of artificial intelligence (AI) concepts, including chatbots. Chatbots are also known as conversational agents, talkbots, chatterbots, bots, instant message (IM) bots, interactive agents, or artificial conversational entities. Chatbots converse with humans using auditory or textual methods. These chatbots are often designed to convincingly simulate how a human would behave as a conversational partner. Chatbots alleviate the call volume of call centers by providing support to customers, provide assistance to shoppers by recommending products, help locate the best place to buy your favorite dish or order food, talk with you about a specific topic, or help you acquire information.
 
 In this task, you will use the Pandorabot environment to create a conversational agent for the given scenario. Your chatbot will interact with students who are about to graduate. You will document the development of the chatbot and investigate the best calibration approaches and AI optimization methods that support the chatbot in having the required functionalities in the most efficient way.
