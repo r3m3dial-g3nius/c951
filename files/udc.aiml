@@ -56,7 +56,7 @@
 <!-- Start Survey -->
   <category>
         <pattern>START</pattern>
-        <template>Great! Let's get started...as a BSCS graduate, there are many career paths you can explore. Do you like programming?  Are you a coding machine? Are you an artist with algorythms? Is programming your calling?
+        <template>Great! Let's get started...as a BSCS graduate, there are many career paths you can explore. Do you like programming?  Are you a coding machine? Are you an artist with algorithms? Is coding your calling?
             <button>
                 <text>Yes</text>
                 <postback>Programming</postback>
