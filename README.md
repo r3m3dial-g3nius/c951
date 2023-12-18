@@ -5,11 +5,13 @@ This course has introduced you to a variety of artificial intelligence (AI) conc
 In this task, you will use the Pandorabot environment to create a conversational agent for the given scenario. Your chatbot will interact with students who are about to graduate. You will document the development of the chatbot and investigate the best calibration approaches and AI optimization methods that support the chatbot in having the required functionalities in the most efficient way.
 
 SCENARIO
+
 You are a career advisor working for a university that offers many degrees, including a degree in computer science. You know that there is a vast range of computing jobs and that students who are about to graduate are generally aware of their disciplinary preferences and personal strengths. The enrollment of computer science students at your university has been increasing and you can no longer meet with each of them individually to give career guidance. During a meeting of career advisors, your manager suggests that you develop a chatbot that may reduce your workload and interact with students to help them identify jobs in computing fields for which they are qualified.
 
 You have been asked to identify five job types that require an undergraduate degree in computer science and to construct a chatbot in the Pandorabot environment. The chatbot will interact with individual students, help them identify their strengths and preferences, and help them decide which career options to consider.
 
 REQUIREMENTS
+
 Your submission must be your original work. No more than a combined total of 30% of the submission and no more than a 10% match to any one individual source can be directly quoted or closely paraphrased from sources, even if cited correctly. The similarity report that is provided when you submit your task can be used as a guide. 
 
 You must use the rubric to direct the creation of your submission because it provides detailed criteria that will be used to evaluate your work. Each requirement below may be evaluated by more than one rubric aspect. The rubric aspect titles may contain hyperlinks to relevant portions of the course.
