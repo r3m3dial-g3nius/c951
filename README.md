@@ -1,3 +1,5 @@
+TASK 1
+
 INTRODUCTION
 
 This course has introduced you to a variety of artificial intelligence (AI) concepts, including chatbots. Chatbots are also known as conversational agents, talkbots, chatterbots, bots, instant message (IM) bots, interactive agents, or artificial conversational entities. Chatbots converse with humans using auditory or textual methods. These chatbots are often designed to convincingly simulate how a human would behave as a conversational partner. Chatbots alleviate the call volume of call centers by providing support to customers, provide assistance to shoppers by recommending products, help locate the best place to buy your favorite dish or order food, talk with you about a specific topic, or help you acquire information.
